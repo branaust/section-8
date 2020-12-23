@@ -20,7 +20,7 @@ class IconList extends Component {
     };
     constructor(props) {
         super(props);
-        this.state = { icons: ['bone', 'cloud'] };
+        this.state = { icons: [] };
         this.addIcon = this.addIcon.bind(this)
     }
     // addIcon() {
