@@ -28,7 +28,7 @@ class Lottery extends Component {
         return (
             <div className='Lotto-Container'>
                 <h1>{this.props.title}</h1>
-                <div>
+                <div className='Lotto-Border'>
                     {this.state.nums.map(n => <Ball num={n} />)}
                 </div>
                 <button onClick={this.handleClick} className="Lotto-Btn">GENERATE</button>
